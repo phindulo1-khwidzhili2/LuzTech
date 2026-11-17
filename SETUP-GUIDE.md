@@ -32,6 +32,7 @@ Gordon's photos are already in the `images` folder: cropped, colour-corrected an
 | `service-cameras.jpg` | Perimeter camera install | Cameras tile and page |
 | `cam-home.jpg`, `cam-perimeter.jpg`, `cam-wifi.jpg`, `cam-indoor.jpg`, `cam-warehouse.jpg`, `cam-restricted.jpg` | Camera examples | Cameras page gallery |
 | `pc-build.jpg`, `pc-repair.jpg`, `pc-board.jpg` | PC build, desktop repair, laptop board repair | Computer repairs page gallery |
+| `logo.png` | The stacked Luztech IT Solutions logo (transparent background) | Header and footer on every page |
 | `gordon.jpg` | Gordon in the red vest, with the Luztech logo | Home page and About page |
 | `work-1.jpg` … `work-9.jpg` | Recent jobs | Home page (first three) and Our work page |
 | `share.jpg` | Preview image when the site is shared on WhatsApp or Facebook | Link previews |
