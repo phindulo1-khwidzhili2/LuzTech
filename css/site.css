@@ -589,3 +589,4 @@ p { margin: 0; }
 .brand-sub { font-style: normal; font-family: var(--body); font-stretch: 100%; font-weight: 800; font-size: .6em; letter-spacing: .01em; color: inherit; opacity: .95; margin-left: .45em; }
 .brand-sub .bs-it { font-style: italic; font-weight: 800; color: inherit; margin-right: .14em; }
 @media (max-width: 400px) { .site-head .brand-word { font-size: 1.25rem; } }
+.hero-info > span { text-wrap: balance; }
