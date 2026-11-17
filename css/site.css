@@ -606,3 +606,29 @@ p { margin: 0; }
 .site-head.scrolled .brand-logo { height: 62px; }
 .site-head.scrolled .wrap { min-height: 5rem; }
 @media (max-width: 480px) { .site-head .brand-logo { height: 66px; } .site-head.scrolled .brand-logo { height: 54px; } }
+
+/* =====================================================================
+   Type: Archivo variable (wdth 62–125, wght 100–900)
+   ===================================================================== */
+body { font-family: "Archivo", system-ui, sans-serif; font-stretch: 100%; font-size: 17px; line-height: 1.6; }
+.hero h1 { font-family: "Archivo", "Arial Black", sans-serif; font-weight: 800; font-stretch: 125%; line-height: 1.04; letter-spacing: -0.012em; }
+
+/* Home headline: print misregistration on load
+   cyan left, magenta right + down, yellow up, settling into register */
+.js .hero h1 { animation: misregister .9s cubic-bezier(0.2, 0.7, 0.2, 1) .15s both; }
+@keyframes misregister {
+  from { text-shadow: -0.06em 0 0 rgba(0, 174, 239, .95), 0.06em 0.05em 0 rgba(236, 0, 140, .9), 0 -0.06em 0 rgba(255, 230, 0, .95); }
+  to   { text-shadow: 0 0 0 rgba(0, 174, 239, 0), 0 0 0 rgba(236, 0, 140, 0), 0 0 0 rgba(255, 230, 0, 0); }
+}
+
+/* Then the intro, buttons and small text rise 1.5rem into place */
+.js .hero-grid > div:first-child > * { opacity: 0; animation: riseIn .8s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.js .hero-grid > div:first-child > *:nth-child(1) { animation-delay: .35s; }
+.js .hero-grid > div:first-child > *:nth-child(2) { animation-delay: .5s; }
+.js .hero-grid > div:first-child > *:nth-child(3) { animation-delay: .65s; }
+@keyframes riseIn { from { opacity: 0; transform: translateY(1.5rem); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .js .hero h1 { animation: none !important; text-shadow: none !important; }
+  .js .hero-grid > div:first-child > * { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
