@@ -599,3 +599,10 @@ p { margin: 0; }
 .brand-logo { transition: height .3s var(--ease); }
 .site-foot .brand-logo { height: 104px; }
 @media (max-width: 480px) { .site-head .brand-logo { height: 52px; } .site-head.scrolled .brand-logo { height: 46px; } }
+
+/* Bigger header logo */
+.site-head .brand-logo { height: 80px; }
+.site-head .wrap { min-height: 6.25rem; padding-block: .5rem; }
+.site-head.scrolled .brand-logo { height: 62px; }
+.site-head.scrolled .wrap { min-height: 5rem; }
+@media (max-width: 480px) { .site-head .brand-logo { height: 66px; } .site-head.scrolled .brand-logo { height: 54px; } }
