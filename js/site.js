@@ -252,12 +252,7 @@ const LUZTECH = {
     if (h.children.length) return;
     const words = h.textContent.trim().split(/\s+/);
     h.setAttribute("aria-label", h.textContent.trim());
-    const hlFrom = h.dataset.hl ? words.length - parseInt(h.dataset.hl, 10) : Infinity;
-    h.innerHTML = words.map((w, i) => {
-      const hl = i >= hlFrom;
-      const last = i === words.length - 1;
-      return `<span class="w${hl ? " hl" : ""}${hl && last ? " hl-last" : ""}" aria-hidden="true" style="--i:${i};--h:${hl ? i - hlFrom : 0}">${w}</span>`;
-    }).join(" ");
+    h.innerHTML = words.map((w, i) => `<span class="w" aria-hidden="true" style="--i:${i}">${w}</span>`).join(" ");
     h.classList.add("rise-words");
   });
 
