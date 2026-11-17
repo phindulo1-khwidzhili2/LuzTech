@@ -248,7 +248,7 @@ const LUZTECH = {
   }
 
   // big headlines: split into words that rise in one by one
-  document.querySelectorAll(".hero h1, .page-hero h1, .svc-hero h1").forEach((h) => {
+  document.querySelectorAll(".page-hero h1, .svc-hero h1").forEach((h) => {
     if (h.children.length) return;
     const words = h.textContent.trim().split(/\s+/);
     h.setAttribute("aria-label", h.textContent.trim());
