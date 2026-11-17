@@ -10,7 +10,7 @@ Open `js/site.js`. At the top is a block called `LUZTECH`. Fill in:
 |---|---|---|
 | `whatsapp` | `"27787760198"` (set) | Every WhatsApp button |
 | `phone` | `"078 776 0198"` (set) | Footer, contact page (tap to call on phones) |
-| `area` | `"Midrand"` (set) | Home page strip, service pages, footer, about, contact |
+| `area` | `"Sandton"` (set) | Home page strip, service pages, footer, about, contact |
 | `hours` | `"Mon–Sun, 6am–6pm"` (set) | Home page strip, footer, about, contact |
 | `googleReviews` | Link to the Google Business Profile | Footer star icon and "Read more reviews on Google" |
 | `facebook`, `instagram` | Full page links | Footer icons, "See more jobs" on the Our work page |

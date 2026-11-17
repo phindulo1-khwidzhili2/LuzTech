@@ -9,8 +9,8 @@ const LUZTECH = {
   // Phone number for calls, written the way people should see it
   phone: "078 776 0198",
   email: "gordon@luztech.co.za",
-  // Where Gordon works, e.g. "Pretoria, Centurion & Midrand"
-  area: "Midrand",
+  // Where Luztech is based
+  area: "Sandton",
   // Working hours, e.g. "Mon–Fri 8:00–17:00, Sat 8:00–13:00"
   hours: "Mon–Sun, 6am–6pm",
   // Links (leave "" to hide)
