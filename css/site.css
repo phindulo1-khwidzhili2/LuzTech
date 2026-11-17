@@ -583,3 +583,8 @@ p { margin: 0; }
 .foot-base .credit a { color: rgba(255,255,255,.8); text-decoration: underline; text-underline-offset: 3px; }
 .foot-base .credit a:hover { color: var(--bright); }
 @media (min-width: 641px) { .foot-base { padding-right: 11rem; } }
+
+/* "IT Solutions" beside the Luztech wordmark */
+.brand-word { white-space: nowrap; }
+.brand-sub { font-style: normal; font-family: var(--body); font-stretch: 100%; font-weight: 600; font-size: .6em; letter-spacing: .01em; color: inherit; opacity: .9; margin-left: .45em; }
+@media (max-width: 400px) { .site-head .brand-word { font-size: 1.25rem; } }
