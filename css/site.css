@@ -584,7 +584,14 @@ p { margin: 0; }
 .foot-base .credit a:hover { color: var(--bright); }
 @media (min-width: 641px) { .foot-base { padding-right: 11rem; } }
 
-/* "IT Solutions" beside the Luztech wordmark */
-.brand-word { white-space: nowrap; }
-.brand-sub { font-style: normal; font-family: var(--body); font-stretch: 100%; font-weight: 600; font-size: .6em; letter-spacing: .01em; color: inherit; opacity: .9; margin-left: .45em; }
-@media (max-width: 400px) { .site-head .brand-word { font-size: 1.25rem; } }
+/* Logo lockup: ring mark + "Luztech" over "IT SOLUTIONS" */
+.brand { gap: .7rem; }
+.brand svg { width: 2.45rem; height: 2.45rem; }
+.brand-word { display: inline-flex; flex-direction: column; align-items: stretch; line-height: 1; white-space: nowrap; }
+.brand-word .bw-main { color: var(--white); font-size: 1.45rem; }
+.brand-word .bw-main span { color: var(--bright); }
+.brand-word .bw-sub { display: block; margin-top: .3rem; font-family: var(--body); font-stretch: 100%; font-weight: 600; font-size: .56rem; letter-spacing: var(--sub-track, .315em); text-transform: uppercase; color: rgba(255,255,255,.72); margin-right: calc(var(--sub-track, .315em) * -1); }
+.site-foot .brand svg { width: 2.6rem; height: 2.6rem; }
+.site-foot .brand-word .bw-main { font-size: 1.6rem; }
+.site-foot .brand-word .bw-sub { font-size: .62rem; }
+@media (max-width: 400px) { .site-head .brand-word .bw-main { font-size: 1.3rem; } .site-head .brand-word .bw-sub { font-size: .5rem; } .site-head .brand svg { width: 2.2rem; height: 2.2rem; } }
