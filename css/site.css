@@ -590,3 +590,12 @@ p { margin: 0; }
 .brand-sub .bs-it { font-style: italic; font-weight: 800; color: inherit; margin-right: .14em; }
 @media (max-width: 400px) { .site-head .brand-word { font-size: 1.25rem; } }
 .hero-info > span { text-wrap: balance; }
+
+/* Stacked logo image (header + footer) */
+.brand-logo { display: block; height: 62px; width: auto; }
+.site-head .wrap { min-height: 5.5rem; padding-block: .55rem; }
+.site-head.scrolled .wrap { min-height: 4.6rem; }
+.site-head.scrolled .brand-logo { height: 52px; }
+.brand-logo { transition: height .3s var(--ease); }
+.site-foot .brand-logo { height: 104px; }
+@media (max-width: 480px) { .site-head .brand-logo { height: 52px; } .site-head.scrolled .brand-logo { height: 46px; } }
