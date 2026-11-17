@@ -632,3 +632,20 @@ body { font-family: "Archivo", system-ui, sans-serif; font-stretch: 100%; font-s
   .js .hero h1 { animation: none !important; text-shadow: none !important; }
   .js .hero-grid > div:first-child > * { animation: none !important; opacity: 1 !important; transform: none !important; }
 }
+
+/* Home intro paragraph */
+.hero .hero-lede {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  max-width: 38em;
+  color: #e9eaeb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.js .hero .hero-lede { opacity: 0; animation: riseIn .8s cubic-bezier(0.2, 0.7, 0.2, 1) .35s both; }
+@media (prefers-reduced-motion: reduce) {
+  .js .hero .hero-lede { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
