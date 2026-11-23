@@ -259,7 +259,7 @@ const LUZTECH = {
   // fade things up as they scroll into view, a little staggered
   const groups = [
     ".section-head", ".tiles > .tile", ".r-steps > li", ".dl-cards > .dl-card", ".steps > li", ".points > div",
-    ".work-grid > .job", ".reviews > .review", ".client-feature", ".about-strip > *", ".ticks > li", ".prices", ".price-note",
+    ".work-grid > .job", ".reviews > .review", ".client-feature", ".bio-groups > .bio-group", ".tech-grid > div", ".tiles.single > .tile", ".about-strip > *", ".ticks > li", ".prices", ".price-note",
     ".faq > details", ".related > a", ".who > div", ".facts > div", ".etym > div", ".story-body > *",
     ".contact-grid > *", ".cta-band .wrap > *", ".unsure", ".wizard", ".two-col > div:first-child",
     ".svc-hero .photo", ".story-side .photo", ".cam-gallery > figure", ".section-foot", ".diff > div:first-child"
